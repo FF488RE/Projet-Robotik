@@ -1,0 +1,167 @@
+/*Importation des polices d'écritures*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*Header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    z-index: 100000;
+}
+
+.end-header a {
+    font-size: 25px;
+    color: #29d9d5;
+}
+
+.logoheader {
+    width:100px;
+    margin-left: 0;
+}
+
+header  .Presentation a span {
+    font-size: 25px;
+    color: white;
+}
+
+header  .Presentation a {
+    font-size: 25px;
+    color: #29d9d5;
+}
+
+/*main*/
+.Salon_Robotik {
+    height: 80px;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    width: 50%;
+    align-items: stretch;
+    border: 5px solid black;
+    padding: 0;
+    margin: 150px auto 0px auto;
+    border-radius: 10px;
+}
+
+#Immer {
+    font-size: 20px;
+    font-family: 'Abril FatFace',sans-serif;
+    font-weight: 100;
+    display: block;
+    position: relative;
+    height: 42px;
+}
+
+#Immer::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(131, 249, 249);
+    width: 170px;
+    height: 5px;
+    bottom: 0;
+}
+
+#explications {
+    font-family: 'Rubik',sans-serif;
+}
+
+#salons {
+    font-size: 20px;
+    font-family: 'Abril FatFace',sans-serif;
+    font-weight: 100;
+    position: relative;
+    height: 125px;
+}
+
+#salons::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(131, 249, 249);
+    width: 170px;
+    height: 5px;
+    bottom: 0;
+}
+
+.drone img {
+    width: 100%;
+}
+
+.drone {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#Texte-drone {
+    margin: 0px 0px 0px 40px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+#image-drone {
+    border: 5px solid rgb(131, 249, 249);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 6px #29d9d5;
+    margin-top: 30px;
+}
+
+
+
+
+.Robot-voiture_chien img {
+    width: 100%;
+}
+.Robot-voiture_chien {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#Texte-Robot_Chien_voiture {
+    margin: 0px 0px 0px 40px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+#image-voiture_chien_robots {
+    border: 5px solid rgb(131, 249, 249);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 6px #29d9d5;
+    margin-top: 65px;
+}
+
+
+
+.Rubika img {
+    width: 100%;
+}
+.Rubika {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#Texte-Rubika {
+    margin: 0px 0px 0px 40px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+#image-rubika {
+    border: 5px solid rgb(131, 249, 249);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 6px #29d9d5;
+    margin-top: 65px;
+}
+
+.end {
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+}
+
